@@ -23,4 +23,4 @@ try:
         sleep(0.2)  # warte 0.1 Sekunde
 
 finally:
-        GPIO.cleanup()  #resete den Pin 24 wieder
+    GPIO.cleanup()  #resete den Pin 24 wieder
