@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import RPi.GPIO as GPIO # 
+import RPi.GPIO as GPIO # import RPi.GPIO Modul
 from time import sleep # damit du Pausen einbauen kannst in deinen Code
 
 GPIO.setmode(GPIO.BCM) #du kannst zwischen zwei Pin Nummerierungsmodes wählen
