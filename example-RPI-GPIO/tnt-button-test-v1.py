@@ -3,7 +3,7 @@
 #jetzt verbessern wir den Code indem wir pull-ups verwenden
 #wenn man keine pull-up oder pull-down Widerstände verwendet ist der Status des Input Pins nicht klar definiert er floatet
 #der Input kann sich deshalb ändern lediglich, durch die Statische Ladung von dir 
-#wenn wir keine Widerstände vewenden wollen, können wir Software im Raspberry Pi verwenden, um dem Input einen
+#wenn wir keine Widerstände verwenden wollen, können wir Software im Raspberry Pi verwenden, um dem Input einen
 #klaren Status zu geben
 
 import RPi.GPIO as GPIO # importiere das RPi.GPIO Modul
