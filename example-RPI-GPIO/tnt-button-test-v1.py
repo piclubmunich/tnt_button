@@ -17,9 +17,9 @@ GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) #setzt GPIO24 als Input
 try: 
     while True:  # das ist eine Endlosschleife, die mit CTRL+C stoppen kannst   
         if GPIO.input(24):  #when GPIO24 == 1 als wenn der Button gedrückt wird
-            print('Button Gedrückt')  #schreibe Button Grdückt
+            print('Button gedrückt')  #schreibe Button Grdückt
         else: 
-            print("Drücke Button") #wenn Button nicht gedrückt dann schreibe Drücke Button
+            print("Button nicht gedrückt") #wenn Button nicht gedrückt dann schreibe Drücke Button
         sleep(0.2)  # warte 0.1 Sekunde
 
 finally:
