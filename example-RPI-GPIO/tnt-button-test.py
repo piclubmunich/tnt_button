@@ -12,7 +12,7 @@ GPIO.setup(24, GPIO.IN) #setzt GPIO24 als Input
 try: 
     while True:  
         if GPIO.input(24):  
-            print "Button Gedrückt" 
+            print "Button gedrückt" 
         else: 
             print "Button nicht gedrückt"
         sleep(0.1)  # warte 0.1 Sekunde
