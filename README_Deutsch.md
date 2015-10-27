@@ -6,11 +6,13 @@ Mit dem TNT Button kannst aktives TNT in Minecraft Raspberry Pi Edition setzen o
 #Shematic
 
 
-#Examples mit RPI
+#Beispiele mit RPI.GPIO
 
 
 
-#Examples with GPIO ZERO
+#Beispiele mit GPIO ZERO
+
+GPIO Zero ist eine einfachere Library mit der man die GPIO Pins Steuern.
 
 ``` 
 # RPi.GPIO                        GPIO Zero
@@ -21,6 +23,10 @@ GPIO.setup(25, GPIO.OUT)          led = LED(25)
 GPIO.output(25,1)                 led.on()
 sleep(5)                          sleep(5)
 GPIO.output(25,0)                 led.off()
-     ```
+```
 
+Du kannst sie installieren folgendermaßen installieren. 
 
+http://pythonhosted.org/gpiozero/#install
+
+```
