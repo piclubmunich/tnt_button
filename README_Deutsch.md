@@ -1,13 +1,16 @@
 #TNT Button
 
-Mit dem TNT Button kannst aktives TNT in Minecraft Raspberry Pi Edition setzen oder ins sonst  
+Mit dem TNT Button kannst aktives TNT in Minecraft Raspberry Pi Edition setzen oder eine andere Aktion in Minecraft ausführen.
 
+Du kannst den Button bei meinen Raspberry Pi Kursen erwerben. 
 
 #Shematic
 
+Dein Button hat zwei Pins. Schloeß
 
 #Beispiele mit RPI.GPIO
 
+Hier habe ich ein paar Beispiel Programme für dich geschrieben
 
 
 #Beispiele mit GPIO ZERO
