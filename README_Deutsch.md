@@ -6,18 +6,18 @@ Du kannst den Button bei meinen Raspberry Pi Kursen erwerben.
 
 #Shematic
 
-Dein Button hat zwei Pins. Nehme die beiliegenden Female to Female Steckbrücken und schließe eine an einen GND Pin und eine an den GPIO Pin des Raspberry Pis an. 
+Dein Button hat zwei Pins. Nehme die beiliegenden Female to Female Steckbrücken und schließe eine an einen GND Pin und eine an den GPIO24 Pin des Raspberry Pis an. 
 
 
 
 #Beispiele mit RPI.GPIO
 
-Hier habe ich ein paar Beispiel Programme für dich geschrieben
+Hier habe ich ein paar Beispiel Programme für dich geschrieben.
 
 
 #Beispiele mit GPIO ZERO
 
-GPIO Zero ist eine einfachere Library mit der man die GPIO Pins Steuern.
+GPIO Zero ist eine neue Library die das steuern der GPIO Pins Steuern.
 
 ``` 
 # RPi.GPIO                        GPIO Zero
@@ -35,3 +35,7 @@ Du kannst sie installieren folgendermaßen installieren.
 http://pythonhosted.org/gpiozero/#install
 
 ```
+
+#Minecraft API in Kano
+
+#Minecraft API in Rasparian
