@@ -6,7 +6,9 @@ Du kannst den Button bei meinen Raspberry Pi Kursen erwerben.
 
 #Shematic
 
-Dein Button hat zwei Pins. Schloeß
+Dein Button hat zwei Pins. Nehme die beiliegenden Female to Female Steckbrücken und schließe eine an einen GND Pin und eine an den GPIO Pin des Raspberry Pis an. 
+
+
 
 #Beispiele mit RPI.GPIO
 
