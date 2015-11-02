@@ -2,7 +2,7 @@
 
 #jetzt verbinden wir den Button mit Minecraft eine Anleitung dazu findet du im Readme
 
-import RPi.GPIO as GPIO  # importiere das RPi.GPIO Modul
+import RPi.GPIO as GPIO  # importiere das RPi.GPIO Modul, achte darauf ein kleines i zu schreiben
 from time import sleep   # damit du Pausen einbauen kannst in deinen Code
 
 import mcpi.minecraft as minecraft  # Minecraft Module
