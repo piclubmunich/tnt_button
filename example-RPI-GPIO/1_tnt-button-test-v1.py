@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+#verbinde ein Jumperkabel mit GPIO24 und das ander mit GND
 
 import RPi.GPIO as GPIO # import RPi.GPIO Modul
 from time import sleep # damit du Pausen einbauen kannst in deinen Code
