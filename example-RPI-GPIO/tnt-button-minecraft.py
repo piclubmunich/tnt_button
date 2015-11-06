@@ -17,7 +17,7 @@ GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 try:
     while True:
-        button_state = GPIO.input(24) #setze Input 24 gleich der Variable button_state
+        button_state = GPIO.input(24) #setze GPIO 24 gleich der Variable button_state
         if button_state == False:
             print('Button Pressed')
             mc.postToChat("TNT") #schreibe TNT in den Chat
@@ -30,6 +30,6 @@ try:
             mc.setBlock(x, y, z, block,1) #baue den Block, 0 ist nicht aktives TNT 1 ist aktives
             sleep(0.2)
 finally:
-    GPIO.cleanup() #resete den Pin 24 wieder
+    GPIO.cleanup() #resete den GPIO 24 wieder
 
 
