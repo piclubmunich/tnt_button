@@ -16,10 +16,11 @@ GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_UP) #setzt GPIO24 als Input mit pu
 try: 
     while True:  # das ist eine Endlosschleife, die mit CTRL+C stoppen kannst   
         button_state = GPIO.input(24) #setze GPIO24 gleich der Variable button_state
-        if button_sate == False:  #wenn Button nicht nicht gedrueckt wird 
-            print "Button gedrueckt"  #schreibe Button gedrueckt
+        if button_sate == False:  #wenn Button nicht nicht gedrueckt wird
+            os.system('mpg123 minecraft_short.mp3 &') #play sound with the name minecraft_short.mp3
+            #print "Button gedrueckt"  #schreibe Button gedrueckt
         else: 
-            print "Button nicht gedrueckt" #wenn Button nicht gedrueckt, wenn du willst kannst due jetzt auch das ganze Else wegloeschen
+            print "Press Button to Play Sound" 
         sleep(0.1)
 
 finally:
