@@ -28,7 +28,7 @@ try:
 
             block = 46 # setze den Block gleich der ID 46, 46 ist TNT, 10 ist Wasser z.B.
             mc.setBlock(x, y, z, block,1) #baue den Block, 0 ist nicht aktives TNT 1 ist aktives
-            time.sleep(0.2)
+            sleep(0.2)
 finally:
     GPIO.cleanup() #resete den Pin 24 wieder
 
