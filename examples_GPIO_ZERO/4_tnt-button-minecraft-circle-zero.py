@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import RPi.GPIO as GPIO
+from gpiozero import Button
 from time import sleep
 
 import mcpi.minecraft as minecraft
@@ -11,13 +11,9 @@ import mcpi.block as block
 
 radius = 10 #bestimme den Radius deines TNT-Kreises
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-
 try:
     while True:
-        input_state = GPIO.input(24)
-        if input_state == False:
+        if button.is_active:
             print "Button Pressed"
             mc.postToChat("TNT")
             pos = mc.player.getPos()
