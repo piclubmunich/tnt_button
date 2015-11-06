@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#jetzt bauen wir zusaetzlich eine LED ein
+#jetzt fügen wir eine LED hinzu
 
 import RPi.GPIO as GPIO 
 from time import sleep
