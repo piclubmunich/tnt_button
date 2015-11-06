@@ -19,7 +19,7 @@ try:
     while True:
         button_state = GPIO.input(24) #setze GPIO 24 gleich der Variable button_state
         if button_state == False:
-            print('Button Pressed')
+            print "Button Pressed"
             mc.postToChat("TNT") #schreibe TNT in den Chat
             pos = mc.player.getPos()
             x = pos.x
