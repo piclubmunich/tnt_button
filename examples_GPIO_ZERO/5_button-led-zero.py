@@ -13,7 +13,7 @@ led = LED(17)
 while True:  # das ist eine Endlosschleife, die mit CTRL+C stoppen kannst   
     if button.is_active:  #wenn Button nicht nicht gedrueckt wird 
         print "Button gedrueckt"  #schreibe Button gedrueckt
-        led.toggle()
+        led.toggle() #aendere den Status der LED #probiere mal led.on() oder led.off() oder led.blink()
     else: 
         print "Button nicht gedrueckt" #wenn Button nicht gedrueckt, wenn du willst kannst due jetzt auch das ganze Else wegloeschen
         sleep(0.1)
