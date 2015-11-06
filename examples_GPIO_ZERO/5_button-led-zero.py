@@ -3,7 +3,7 @@
 
 #jetzt fügen wir eine LED hinzu
 
-import RPi.GPIO as GPIO 
+from gpiozero import LED
 from time import sleep
 
 GPIO.setmode(GPIO.BCM) #du kannst zwischen zwei Pin Nummerierungsmodes wählen, hier waehlen wir BCM
