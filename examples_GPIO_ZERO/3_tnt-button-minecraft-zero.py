@@ -10,6 +10,8 @@ import mcpi.minecraft as minecraft  # Minecraft Module
 mc = minecraft.Minecraft.create()  # Minecraft Verbindung
 import mcpi.block as block  # importiere Block Modul
 
+button = Button(24)
+
 
 try:
     while True:
