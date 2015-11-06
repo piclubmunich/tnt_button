@@ -6,13 +6,23 @@ Du kannst den Button bei meinen Raspberry Pi Kursen erwerben.
 
 #Shematic
 
-Dein Button hat zwei Pins. Nehme die beiliegenden Female to Female Steckbrücken und schließe eine an einen GND Pin und eine an den GPIO24 Pin des Raspberry Pis an. 
+Dein Button hat zwei Pins. Nehme die beiliegenden Female to Female Steckbrücken und schließe einen GND GPIO und eine an den GPIO24 Pin des Raspberry Pis an. Nutze dein GPIO Leave damit du nicht die falschen Pins verbindest. 
+
+Fritzing Sheamtic einfügen
 
 
 
 #Beispiele mit RPI.GPIO
 
 Hier habe ich ein paar Beispiel Programme für dich geschrieben.
+
+1.
+2.
+3.
+4.
+5.
+6.
+7. 
 
 
 #Beispiele mit GPIO ZERO
@@ -34,7 +44,7 @@ Du kannst sie installieren folgendermaßen installieren.
 
 http://pythonhosted.org/gpiozero/#install
 
-```
+
 
 #Minecraft API in Kano
 
