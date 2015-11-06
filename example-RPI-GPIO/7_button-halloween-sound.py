@@ -3,6 +3,7 @@
 #zu halloween lade dir einen schoenen Schreisound herunter
 
 import RPi.GPIO as GPIO # importiere das RPi.GPIO Modul
+import os
 from time import sleep # damit du Pausen einbauen kannst in deinen Code
 
 GPIO.setmode(GPIO.BCM) #du kannst zwischen zwei Pin Nummerierungsmodes wählen, hier waehlen wir BCM
