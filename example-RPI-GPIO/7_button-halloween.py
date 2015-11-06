@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 
-#jetzt verbessern wir den Code indem wir pull-ups verwenden
-#wenn man keine pull-up oder pull-down Widerstaende verwendet ist der Status des Inputs nicht klar definiert er floatet
-#der Input kann sich deshalb aendern lediglich, durch die Statische Ladung von dir und der Button koennte willkuerlich ausgeloest werden
-#wenn wir keine Widerstaende verwenden wollen, koennen wir Software im Raspberry Pi verwenden, um dem Input einen
-#klaren Status zu geben
+#zu halloween lade dir einen schoenen Schreisound herunter
 
 import RPi.GPIO as GPIO # importiere das RPi.GPIO Modul
 from time import sleep # damit du Pausen einbauen kannst in deinen Code
