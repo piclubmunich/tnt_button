@@ -13,18 +13,15 @@ import mcpi.block as block  # importiere Block Modul
 button = Button(24)
 
 
-try:
-    while True:
-        if button.is_active:
-            print "Button Pressed"
-            mc.postToChat("TNT") #schreibe TNT in den Chat
-            pos = mc.player.getPos()
-            x = pos.x
-            y = pos.y
-            z = pos.z
-
-            block = 46 # setze den Block gleich der ID 46, 46 ist TNT, 10 ist Wasser z.B.
-            mc.setBlock(x, y, z, block,1) #baue den Block, 0 ist nicht aktives TNT 1 ist aktives
-            sleep(0.2)
-finally:
-    GPIO.cleanup() #resete den GPIO 24 wieder
+while True:
+    if button.is_active:
+        print "Button Pressed"
+        mc.postToChat("TNT") #schreibe TNT in den Chat
+        pos = mc.player.getPos()
+        x = pos.x
+        y = pos.y
+        z = pos.z
+        
+        block = 46 # setze den Block gleich der ID 46, 46 ist TNT, 10 ist Wasser z.B
+        mc.setBlock(x, y, z, block,1) #baue den Block, 0 ist nicht aktives TNT 1 ist aktives
+        sleep(0.2)
