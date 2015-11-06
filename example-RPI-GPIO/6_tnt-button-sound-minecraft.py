@@ -19,7 +19,7 @@ while True:
     if input_state == False:
         print('Button Pressed')
         pos = mc.player.getPos()
-        os.system('mpg123 minecraft_short.mp3 &')
+        os.system('mpg123 minecraft_short.mp3 &') #play sound with the name minecraft_short.mp3
         x = pos.x
         y = pos.y
         z = pos.z
