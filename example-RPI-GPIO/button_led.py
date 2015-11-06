@@ -8,7 +8,8 @@ from time import sleep # damit du Pausen einbauen kannst in deinen Code
 GPIO.setmode(GPIO.BCM) #du kannst zwischen zwei Pin Nummerierungsmodes wählen, hier waehlen wir BCM
 
 GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_UP) #setzt GPIO24 als Input mit pull-up
-GPIO.setup(17, GPIO.OUT)
+GPIO.setup(17, GPIO.OUT) #LED an GPIO17 al
+GPIO.setwarnings(False) #damit keine Fehlernachrichten kommen
 
 
 try: 
