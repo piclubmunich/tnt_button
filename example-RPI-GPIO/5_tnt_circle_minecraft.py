@@ -9,7 +9,7 @@ mc = minecraft.Minecraft.create()
 mcdrawing = minecraftstuff.MinecraftDrawing(mc)
 import mcpi.block as block
 
-radius = 10
+radius = 10 #bestimme den Radius deines TNT-Kreises
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_UP)
