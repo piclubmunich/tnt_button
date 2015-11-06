@@ -1,13 +1,14 @@
 
 #!/usr/bin/env python
 
-#jetzt fügen wir eine LED hinzu
+#jetzt verbinde eine LED mit deinem Pi, ein Jumper zu GPIO17 und einer zu GND
 
 from gpiozero import LED
 from gpiozero import Button
 from time import sleep
 
-GPIO.setmode(GPIO.BCM) #du kannst zwischen zwei Pin Nummerierungsmodes wählen, hier waehlen wir BCM
+button = Button(24)
+led = LED(17)
 
 while True:  # das ist eine Endlosschleife, die mit CTRL+C stoppen kannst   
     if button.is_active:  #wenn Button nicht nicht gedrueckt wird 
