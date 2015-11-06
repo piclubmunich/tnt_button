@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
-#zu halloween lade dir einen schoenen Schreisound herunter
+#zu halloween lade dir einen schoenen Schreisound herunter es sollte ein mp3 sein
+# mit Internet Verbindung tippe folgendens sudo apt-get install mpg123
+#du kannst es den song so abspielen mpg123 MySong.mp3
 
 import RPi.GPIO as GPIO # importiere das RPi.GPIO Modul
 import os
