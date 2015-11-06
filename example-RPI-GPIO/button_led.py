@@ -1,16 +1,15 @@
 #!/usr/bin/env python
 
-#jetzt bauen wir zusätzlich eine LED ein
+#jetzt bauen wir zusaetzlich eine LED ein
 
-import RPi.GPIO as GPIO # importiere das RPi.GPIO Modul
-from time import sleep # damit du Pausen einbauen kannst in deinen Code
+import RPi.GPIO as GPIO 
+from time import sleep
 
 GPIO.setmode(GPIO.BCM) #du kannst zwischen zwei Pin Nummerierungsmodes wählen, hier waehlen wir BCM
 
 GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_UP) #setzt GPIO24 als Input mit pull-up
-GPIO.setup(17, GPIO.OUT) #LED an GPIO17 al
+GPIO.setup(17, GPIO.OUT) #LED an GPIO17 als OUTPUT
 GPIO.setwarnings(False) #damit keine Fehlernachrichten kommen
-
 
 try: 
     while True:  # das ist eine Endlosschleife, die mit CTRL+C stoppen kannst   
