@@ -1,5 +1,4 @@
-
-!/usr/bin/env python
+#!/usr/bin/env python
 
 #jetzt bauen wir zusätzlich eine LED ein
 
@@ -15,7 +14,7 @@ GPIO.setup(17, GPIO.OUT)
 try: 
     while True:  # das ist eine Endlosschleife, die mit CTRL+C stoppen kannst   
         button_state = GPIO.input(24) #setze GPIO24 gleich der Variable button_state
-        if button_sate == False:  #wenn Button nicht nicht gedrueckt wird 
+        if button_state == False:  #wenn Button nicht nicht gedrueckt wird 
             print "Button gedrueckt"  #schreibe Button gedrueckt
             GPIO.output(17, 1)
             sleep(2)
