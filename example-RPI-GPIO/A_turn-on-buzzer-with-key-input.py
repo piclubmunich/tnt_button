@@ -1,4 +1,7 @@
 #arbeite an code
+#sudo apt-get install  python-pip
+#sudo pip install python-uinput
+#sudo modprobe uinput
 
 from time import sleep
 import uinput
