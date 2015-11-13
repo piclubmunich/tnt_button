@@ -16,7 +16,7 @@ GPIO.setup(button, GPIO.IN, GPIO.PUD_UP)
 
 with picamera.PiCamera() as camera:
 	camera.vflip = True
-    camera.hflip = True
+    	camera.hflip = True
 	camera.start_preview()
 	frame = 1
 	while True:
