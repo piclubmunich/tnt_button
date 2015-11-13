@@ -26,6 +26,3 @@ with picamera.PiCamera() as camera:
 		camera.stop_preview()
 
 
-#als ALternative kannst du auch eine Stopmotion Software installieren
-# sudo apt-get install uv4l uv4l-raspicam uv4l-raspicam-extras
-#sudo apt-get install stopmotion
