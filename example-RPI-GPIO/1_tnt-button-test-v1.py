@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 #verbinde ein Jumperkabel mit GPIO24 und das ander mit GND
+#im Terminal tippe sudo geany ein, bei Kano ist geany schon vorinstalliert, solltest du 
+#raspian nutzen musst du geany erst mit sudo apt-get install geany installieren
 
 import RPi.GPIO as GPIO # import RPi.GPIO Modul
 from time import sleep # damit du Pausen einbauen kannst in deinen Code
