@@ -21,3 +21,8 @@ with picamera.PiCamera() as camera:
 		camera.capture('/frame%03d.jpg' % frame)
 		frame += 1
 		camera.stop_preview()
+
+
+#als ALternative kannst du auch eine Stopmotion Software installieren
+# sudo apt-get install uv4l uv4l-raspicam uv4l-raspicam-extras
+#sudo apt-get install stopmotion
