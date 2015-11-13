@@ -1,6 +1,8 @@
 #arbeite gerade am code
 #bei Kano musst du erst noch pi camera installieren
-#sudo easy_install --help
+#sudo easy_install --user picamera
+#aktiviere die camera, tipp sudo kano-camera 
+#reboote deinen pi
 
 import picamera
 from RPi import GPIO
