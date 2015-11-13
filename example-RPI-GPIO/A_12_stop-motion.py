@@ -23,7 +23,7 @@ with picamera.PiCamera() as camera:
 		GPIO.wait_for_edge(button, GPIO.FALLING)
 		camera.capture('home/user/animation/frame%03d.jpg' % frame)
 		frame += 1
-		camera.stop_preview()
+	camera.stop_preview()
 
 
 #als ALternative kannst du auch eine Stopmotion Software installieren
