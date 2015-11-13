@@ -1,4 +1,7 @@
 #arbeite gerade am code
+#bei Kano musst du erst noch pi camera installieren
+#sudo easy_install --help
+
 import picamera
 from RPi import GPIO
 
