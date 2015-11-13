@@ -3,6 +3,7 @@
 #sudo easy_install --user picamera
 #aktiviere die camera, tipp sudo kano-camera 
 #reboote deinen pi
+#tippe in das terminal ein raspistill -o image1.jpg  damit testest du ob die Kamera funktioniert 
 
 import picamera
 from RPi import GPIO
