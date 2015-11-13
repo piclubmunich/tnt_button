@@ -3,6 +3,7 @@
 #!/usr/bin/env python
 #checke ob der omxplayer installiert ist omxplayer --version
 #install wenn noch nicht installiert sudo apt-get install omxplayer
+#erstelle einen ordner videos
 
 
 import RPi.GPIO as GPIO # importiere das RPi.GPIO Modul
@@ -18,7 +19,7 @@ try:
     while True:  # das ist eine Endlosschleife, die mit CTRL+C stoppen kannst   
         button_state = GPIO.input(24) #setze GPIO24 gleich der Variable button_state
         if button_state == False:  #wenn Button nicht nicht gedrueckt wird
-            os.system(“omxplayer -o hdmi /home/pi/Music/ [Media File].m4v”)
+            os.system(“omxplayer -o hdmi /home/user/videos/ [Media File].m4v”)
             #print "Button gedrueckt"  #schreibe Button gedrueckt
         else: 
             print "Press Button to Play Sound" 
