@@ -7,6 +7,7 @@ import random
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(24, GPIO.IN)
 GPIO.setup(17, GPIO.OUT)
+GPIO.setwarnings(False) #damit keine Fehlernachrichten kommen
 
 while True:
   if not GPIO.input(11):
