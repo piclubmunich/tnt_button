@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#
+#zaehle wievil mal du auf den button drueckst
 
 import RPi.GPIO as GPIO # importiere das RPi.GPIO Modul
 import os
@@ -16,7 +16,7 @@ try:
         button_state = GPIO.input(24) #setze GPIO24 gleich der Variable button_state
         if button_state == False:  #wenn Button nicht nicht gedrueckt wird
           count = count+1
-          print " count" , count
+          print " count", count
         else: 
             print "Press Button to Play Sound" 
         sleep(0.1)
