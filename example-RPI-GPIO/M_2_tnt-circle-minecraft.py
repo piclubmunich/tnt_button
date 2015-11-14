@@ -28,6 +28,6 @@ try:
             mc.setBlock(x, y, z, block,1)	
             mcdrawing.drawCircle(x, y, z, radius, block, 1)
             sleep(0.2)
-finall:
+finally:
     GPIO.cleanup()
 #mehr Aufgaben folgen
