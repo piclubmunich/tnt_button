@@ -12,13 +12,11 @@ count = 0
 
 try: 
     while True:  # das ist eine Endlosschleife, die mit CTRL+C stoppen kannst   
-        button_state = GPIO.input(24) #setze GPIO24 gleich der Variable button_state
-        if button_state == False:  #wenn Button nicht nicht gedrueckt wird
+        mein_button = GPIO.input(24) #setze GPIO24 gleich der Variable mein_button
+        if mein_button == False:  #wenn Button nicht nicht gedrueckt wird
           count = count+1
           print " count", count
-        else: 
-            print "Press Button to Play Sound" 
-        sleep(0.1)
+          sleep(0.1)
 
 finally:
         GPIO.cleanup()  #resete den GPIO24 wieder
